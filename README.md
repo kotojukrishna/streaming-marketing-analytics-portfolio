@@ -63,6 +63,8 @@ cohort_retention_dashboard/
 README.md
 requirements.txt
 
+---
+
 ```markdown
 ## How to Run
 
