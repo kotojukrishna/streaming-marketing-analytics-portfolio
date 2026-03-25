@@ -62,3 +62,10 @@ marketing_funnel_analytics/
 cohort_retention_dashboard/
 README.md
 requirements.txt
+
+## How to Run
+
+### 1. Create and activate a virtual environment
+```bash
+py -3.11 -m venv .venv
+.\.venv\Scripts\Activate.ps1
