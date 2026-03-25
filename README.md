@@ -62,33 +62,3 @@ marketing_funnel_analytics/
 cohort_retention_dashboard/
 README.md
 requirements.txt
-
-How to Run
-1. Create and activate a virtual environment
-py -3.11 -m venv .venv
-.\.venv\Scripts\Activate.ps1
-2. Install dependencies
-pip install -r requirements.txt
-3. Run the projects
-Subscriber Churn Prediction
-python .\subscriber_churn_prediction\src\generate_data.py
-python .\subscriber_churn_prediction\src\train_model.py
-Marketing Funnel Analytics
-python .\marketing_funnel_analytics\src\generate_data.py
-python .\marketing_funnel_analytics\src\analyze_funnel.py
-Cohort Retention Dashboard
-python .\cohort_retention_dashboard\src\generate_data.py
-python .\cohort_retention_dashboard\src\build_dashboard_data.py
-streamlit run .\cohort_retention_dashboard\src\app.py
-Business Value
-
-These projects demonstrate how analytics can be used to:
-
-identify churn drivers
-improve subscriber retention
-evaluate marketing channel quality
-support lifecycle and growth decisions
-communicate insights through dashboards and data storytelling
-Author
-
-Sai Krishna Kotoju
